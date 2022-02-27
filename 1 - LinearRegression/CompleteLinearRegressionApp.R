@@ -32,7 +32,7 @@ dirtyDataset <- dirtyDataset[c(3,4,5)]
 dirtyDataset %>% head()
 
 
-# Edit column names to our preference in snakeCasing
+# Edit column names to our preference in camelCasing
 colnames(dirtyDataset) <- c("movieTitle", "productionBudget", "worldwideGross")
 
 dirtyDataset %>% head()
@@ -120,7 +120,7 @@ rm(cleanDataset)
 rm(dirtyDataset)
 
 # Lets look at the finalDataset again to see if it is in the format we want it to be
-# Column names have snakeCasing, there are no zeros, or missing values, great
+# Column names have camelCasing, there are no zeros, or missing values, great
 finalDataset %>% head()
 
 
